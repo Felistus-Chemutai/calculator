@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2>VANILLAS CALCULATOR</h2>
+    <div class="main">
+        <div class="price">price</div>
+        <label>
+            <input type="number" name="price"  id="price" width="50px" height="50px"></label>
+        <div class="quantity">quantity</div>
+        <label>
+            <input type="number" name="quantity" id="quantity" width="50px" height="50px"></label>
+        <div class="result">result
+        <label>
+            <input type="number" name="result" id="result" value="result" width="50px" height="50px"></label></div>
+        
+    </div>
+
+
+    <script>
+        function getTotal() {
+            numb1 = document.getElementById("number-one").value;
+            numb2 = document.getElementById("number-two").value;
+
+            let result = numb1 * numb2;
+            document.getElementById("result").textContent = result;
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
