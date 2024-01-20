@@ -3,6 +3,7 @@
     numb2 = document.getElementById("number-two").value;
 
     let result = numb1 * numb2;
-    document.getElementById("result").textContent = result;
+    document.getElementById("result").innerHTML= "My result:" result;
 }
+getTotal();
 
