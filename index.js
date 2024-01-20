@@ -1,8 +1,8 @@
-function myShopping(){
-    price=document.getElementById("price").value
-    quantity=document.getElementById("quantity").value
-totalPrice= (price) *(quantity);
+ function getTotal() {
+    numb1 = document.getElementById("number-one").value;
+    numb2 = document.getElementById("number-two").value;
 
-    document.getElementById("totalPrice").innerHTML = "totalPrice: " totalPrice;
+    let result = numb1 * numb2;
+    document.getElementById("result").textContent = result;
 }
-myShopping()
+
